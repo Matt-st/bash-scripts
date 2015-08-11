@@ -39,8 +39,6 @@ IFS="";
 cd $WARPATH
 cd ..
 mvn clean install
-echo "$TOMCATPATH"
-#cd /Users/Matt/Documents/Servers/apache-tomcat-7.0.57/logs
 cd $TOMCATPATH
 ./../bin/shutdown.sh
 rm -rf $DELETEFILE
