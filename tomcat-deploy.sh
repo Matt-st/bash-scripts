@@ -1,8 +1,6 @@
 #!/bin/bash
 # script for deploying war files to tomcat
 
-echo "Hello World!"
-
 if [ "$#" -ne 6 ]; then
   
    	echo "Incorrect number of arguments."
